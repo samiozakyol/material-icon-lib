@@ -1,11 +1,5 @@
 apply plugin: 'com.android.library'
-
-
-ext {
-    PUBLISH_GROUP_ID = 'net.steamcrafted'
-    PUBLISH_ARTIFACT_ID = 'materialiconlib'
-    PUBLISH_VERSION = '1.1.5'
-}
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 27
@@ -29,8 +23,6 @@ android {
 
 }
 
-apply from: 'https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle'
-
 afterEvaluate {
     publishing {
         publications {
@@ -42,7 +34,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.samiozakyol'
                 artifactId = 'materialiconlib'
-                version = '0.0.1'
+                version = '0.0.2'
             }
         }
     }
