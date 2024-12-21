@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MaterialIconView.iml" filepath="$PROJECT_DIR$/MaterialIconView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/materialiconlib/materialiconlib.iml" filepath="$PROJECT_DIR$/materialiconlib/materialiconlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/material-icon-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/material-icon-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.iml" filepath="$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/materialiconlib/material-icon-lib.materialiconlib.unitTest.iml" />
     </modules>
   </component>
 </project>
